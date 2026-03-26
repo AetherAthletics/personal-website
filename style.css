@@ -1,9 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     text-align: center;
     background-color: #f4f4f4;
 }
+
 
 header {
     background-color: #c77dff;
@@ -11,12 +18,15 @@ header {
     padding: 20px;
 }
 
+
 .about {
     padding: 20px;
 }
 
 .about img {
     width: 150px;
+    height: 150px;
+    object-fit: cover; 
     border-radius: 50%;
     margin-top: 10px;
 }
@@ -27,13 +37,19 @@ header {
 
 .hobby {
     display: inline-block;
-    margin: 10px;
+    margin: 15px;
+    transition: transform 0.3s; 
 }
 
 .hobby img {
     width: 120px;
     height: 120px;
+    object-fit: cover;
     border-radius: 10px;
+}
+
+.hobby:hover {
+    transform: scale(1.1);
 }
 
 button {
@@ -43,10 +59,16 @@ button {
     border: none;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a55eea;
 }
 
 footer {
     background-color: #333;
     color: white;
     padding: 10px;
+    margin-top: 20px;
 }
