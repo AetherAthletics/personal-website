@@ -9,35 +9,38 @@
 
 <header>
     <h1>Elia Ashia Silvestre</h1>
-    <p>Welcome to my personal website</p>
+    <p>17 years old | Personal Website</p>
 </header>
 
 <section class="about">
     <h2>About Me</h2>
     <img src="images/profile.jpg" alt="My Photo">
-    <p>Hello! I'm Elia Ashia Silvestre, 17 years old. I love playing the guitar, arts, gaming, and sports.</p>
+    <p>
+        Hi! I'm Elia Ashia Silvestre. I am 17 years old and I enjoy expressing myself 
+        through music, art, and sports. I love being creative and active in my daily life.
+    </p>
 </section>
 
 <section class="hobbies">
     <h2>My Hobbies</h2>
 
     <div class="hobby">
-        <img src="images/guitar.jpg">
+        <img src="images/guitar.jpg" alt="">
         <p>Playing Guitar / Band</p>
     </div>
 
     <div class="hobby">
-        <img src="images/drawing.jpg">
+        <img src="images/drawing.jpg" alt="">
         <p>Drawing</p>
     </div>
 
     <div class="hobby">
-        <img src="images/gaming.jpg">
+        <img src="images/gaming.jpg" alt="">
         <p>Gaming</p>
     </div>
 
     <div class="hobby">
-        <img src="images/volleyball.jpg">
+        <img src="images/volleyball.jpg" alt="">
         <p>Volleyball</p>
     </div>
 </section>
@@ -50,7 +53,7 @@
 
 <script>
 function showMessage() {
-    alert("Thanks for visiting my website!");
+    alert("Hi! Thanks for visiting my website 😊");
 }
 </script>
 
